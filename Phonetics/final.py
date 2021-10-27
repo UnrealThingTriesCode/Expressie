@@ -1,5 +1,7 @@
 import sys
 
+__credit__['Sunka Labree']
+__date__['27.10.2021']
 dicti = {'a': 'alpha', 'b': 'bravo', 'c': 'charlie',
          'd': 'delta', 'e': 'echo', 'f': 'foxtrot',
          'g': 'golf', 'h': 'hotel', 'i': 'india',
