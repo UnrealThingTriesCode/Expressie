@@ -1,2 +1,4 @@
 # Expressie
-A basic README.md because it doesnt have to be complicated, because noone is going to see this
+I made a translator for letter -> NATO for a art project.
+Feel free to check it out and use it.
+
