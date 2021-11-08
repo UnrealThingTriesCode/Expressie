@@ -32,3 +32,4 @@ else:
 for letter in user_input:
     translation = dicti.get(letter)
     print(letter, translation, sep='\t')
+         
