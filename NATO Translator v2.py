@@ -17,7 +17,15 @@ dicti = {'a': 'Alpha   |  *-', 'b': 'Bravo   |  -***', 'c': 'Charlie |  -*-*',
          '4': 'Four (Pronounce as Fower  |  ****-', '5': 'Five (Pronounce as Fife)  |  *****',
          '6': 'Six (Pronounce as Six)    |  -****', '7': 'Seven (Pronounce as Sevun)|  --***',
          '8': 'Eight (Pronounce as Ait)  |  ---**', '9': 'Nine (Pronounce as Niner) |  ----*',
-         '0': 'Zero (Pronounce as Zeero) |  -----'}
+         '0': 'Zero (Pronounce as Zeero) |  -----','A': 'Alpha   |  *-', 'A': 'Bravo   |  -***', 'C': 'Charlie |  -*-*',
+         'D': 'Delta   |  -**', 'E': 'Echo    |  *', 'F': 'Foxtrot |  **-*',
+         'G': 'Golf    |  --*', 'H': 'Hotel   |  ****', 'I': 'India   |  **',
+         'J': 'Juliet  |  *---', 'K': 'Kilo    |  -*-', 'L': 'Lima    |  *-**',
+         'M': 'Mike    |  --', 'N': 'November|  -*', 'O': 'Oscar   |  ---',
+         'P': 'Papa    |  *--*', 'Q': 'Quebec  |  --*-', 'R': 'Romeo   |  *-*',
+         'S': 'Sierra  |  ***', 'T': 'Tango   |  -', 'U': 'Uniform |  **-',
+         'V': 'Victor  |  ***-', 'W': 'Whiskey |  *--', 'X': 'X-ray   |  -**-',
+         'Y': 'Yankee  |  -*--', 'Z': 'Zulu.   |  --**'}
          
          
          
@@ -32,4 +40,4 @@ else:
 for letter in user_input:
     translation = dicti.get(letter)
     print(letter, translation, sep='\t')
-         
+   
